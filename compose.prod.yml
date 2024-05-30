@@ -48,7 +48,7 @@ services:
       - public-network  
 
   frontend:
-    image: ghcr.io/my-digital-school-nantes/mds-mydigitalhub-frontend:master
+    image: ghcr.io/guillaumetroyaux/mds-mydigitalhub-backend:master
     ports:
       - 3000:3000
     container_name: mydigitalhub-frontend
